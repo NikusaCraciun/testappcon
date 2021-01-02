@@ -161,7 +161,7 @@ p {
       display: flex;
       height: 100%; }
     .showroom .swiper-slide .img-container {
-      background-color: burlywood;
+      background-color: #202020;
       overflow: hidden;
       display: flex;
       justify-content: center;
@@ -336,7 +336,7 @@ p {
       .werkstatt .swiper-container .swiper-wrapper .swiper-slide {
         height: 100%;
         width: 100% !important;
-        background-color: indianred;
+        background-color: #202020;
         display: flex;
         justify-content: center;
         align-items: center;
