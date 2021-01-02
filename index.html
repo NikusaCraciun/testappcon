@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conifere App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    
+</head>
+
+<body class="body-wrapper">
+    <div class="curtain-1"></div>
+    <div class="curtain-2"></div>
+    
+    <div class="nav">
+        <div class="nav-brand">
+            <a href="index.html">
+                <img src="img/logo.svg" alt="Conifere Logo">
+            </a>
+            
+        </div>
+        <nav class="nav-navbar">
+            <ul>
+                <li><span>Über uns</span></li>
+                <li><a href="werkstatt.html">Werkstatt</a></li>
+                <li><a href="showroom.html">Showroom</a></li>
+                <li><span>Partner</span></li>
+                <li>
+                    <a href="index.html">Home
+                      <span class="home-icon"><img src="img/home.svg" alt=""></span>  
+                    </a>
+                    
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <main class="main-container">
+        <div class="hero">
+            <div class="hero-left">
+                <h1>Ihre Schreinerei <br>
+                    mit Herz<br>
+                    und Know-How
+                </h1>
+                <a href="showroom.html" class="button-primary btn-showroom">Showroom</a>
+            </div>
+            <div class="hero-right">
+                <div class="background-image toggle-image first-image show"></div>
+                <div class="background-image toggle-image second-image"></div>
+                <div class="background-image toggle-image third-image"></div>
+                <div class="background-image toggle-image fourth-image"></div>
+            </div>
+    </main>
+    <footer>
+        <a href="#">Impressum</a>
+    </footer>
+    <div class="bg-video">
+        <video autoplay muted loop  id="bg-video" name="Video Name" src="videos/bg-video.mov"></video>
+        <div class="bg-overlay"></div>
+    </div>
+    
+    </div>
+    <script src="js/js.js"></script>
+    <script src="js/start.js"></script>
+</body>
+
+</html>

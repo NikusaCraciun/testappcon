@@ -1,0 +1,21 @@
+.curtain-1 {
+    position: absolute;
+    left:0;
+    top:0;
+    background-color: $color-primary-2;
+    height: 100vh;
+    width: 67%;
+    z-index: 999;
+
+}
+
+.curtain-2 {
+    position: absolute;
+    right:0;
+    top:0;
+    background-color: $color-secondary-1;
+    height: 100vh;
+    width: 34%;
+    z-index: 999;
+
+}

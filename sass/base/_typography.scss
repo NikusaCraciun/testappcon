@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Barlow-Light';
+    src: url(../fonts/Barlow/Barlow-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow-Regular';
+    src: url(../fonts/Barlow/Barlow-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quiet-Sans-Light';
+    src: url(../fonts/Quiet/Quiet-Sans-Light.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1, h2 {
+    font-family: 'Quiet-Sans-Light';
+    font-size: 7rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+    h1, h2 {
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 992px) {
+    h1, h2 {
+       font-size: 5rem;
+   }
+}

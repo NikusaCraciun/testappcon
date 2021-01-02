@@ -1,0 +1,48 @@
+.hero-right {
+    position: relative;
+  }
+/* Basic background image styling. */
+.background-image {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Styles for the alternating / transition effect. */
+.toggle-image {
+ 	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+ 	height: 100%;
+	transition: opacity 2s ease-in-out;
+}
+
+/* Styles for the specific images. */
+.first-image {
+	background-image: url('../img/block.jpg');	
+	z-index: 1;
+	opacity: 0;
+}
+
+.second-image {
+	background-image: url('../img/chair.jpg');
+	z-index: 2;
+	opacity: 0;
+}
+
+.third-image {
+	background-image: url('../img/werkstatt_001.jpg');
+	z-index: 3;
+	opacity: 0;
+}
+
+.fourth-image {
+	background-image: url('../img/Bild_28.jpg');
+	z-index: 3;
+	opacity: 0;
+}
+
+.first-image.show, .second-image.show, .third-image.show,  .fourth-image.show {
+	opacity: 1;
+}

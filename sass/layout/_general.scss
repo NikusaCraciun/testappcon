@@ -1,0 +1,36 @@
+.main-container {
+    margin: 0 8rem;
+    // background-color: palevioletred;
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+}
+
+.body-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    // background-color: purple;
+    margin: 0 8rem;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+    a {
+        font-size: 1.4rem;
+        color: #fff;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main-container {
+        margin: 0 5rem;
+    }
+    
+    footer {
+        margin: 0 5rem;
+    }
+}
