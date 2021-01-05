@@ -1,4 +1,7 @@
 
+// SwiperJs: https://swiperjs.com/get-started/
+// Jquery: https://jquery.com/download/ 
+
 $(document).ready(function() {
 
     $('.back-to-front').click(function() {

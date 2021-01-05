@@ -1,4 +1,5 @@
 
+// Jquery: https://jquery.com/download/
 
 $(document).ready(function() {
 
@@ -35,8 +36,6 @@ $(document).ready(function() {
     });
 
     document.querySelector('#bg-video').playbackRate = 0.5;
-    
-  
 
         function cycleBackgrounds() {
             var index = 0;
@@ -59,6 +58,5 @@ $(document).ready(function() {
             cycleBackgrounds();
         });
     
- 
 
 })

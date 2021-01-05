@@ -1,6 +1,8 @@
+
+// SwiperJs: https://swiperjs.com/get-started/
+// Jquery: https://jquery.com/download/
+
 $(document).ready(function () {
-
-
     var mySwiper = new Swiper('.swiper-container', {
         // Optional parameters
         speed: 1000,

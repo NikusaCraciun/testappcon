@@ -5,7 +5,7 @@ Winter - 2020 / 2021
 
 ## Allgemeine Informationen 
 * Browserunterstützung: >Crome70.0, >Firefox 60.0
-* Optimierung für Tablets: Ipad Pro (1366 x 1024) Porträt- & Landschafts-Modus, Ipad (1024 x 768) Porträt- & Landschafts-Modus.
+* Optimierung für Tablets: Ipad Pro (1366 x 1024) Porträt- & Landschafts-Modus
 
 ## Technologien
 Paketverwaltungssystem: npm v6.14.8 (https://www.npmjs.com/);
